@@ -10,7 +10,7 @@ firebase.database().ref("Dishes").once("value", function (snap) {
         product.innerHTML += `
         <div class="col col-lg-3 col-md-4 col-sm-6 col-12 mt-2">
         <div class="card" >
-  <img src=${i.img_Url} class="card-img-top" alt="...">
+  <img src=${i.img_Url} class="card-img-top" style="height:300px;" alt="...">
   <div class="card-body">
     <h5 class="card-title">${i.Dish_Name}</h5>
     <p class="card-text">${i.Price}.</p>
